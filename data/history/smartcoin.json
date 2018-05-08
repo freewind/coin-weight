@@ -1,0 +1,272 @@
+[
+  {
+    "closePrice": "0.015936",
+    "date": "2018-05-07",
+    "highPrice": "0.017545",
+    "lowPrice": "0.015841",
+    "marketCap": "428231",
+    "openPrice": "0.017536",
+    "volume": "285"
+  },
+  {
+    "closePrice": "0.017523",
+    "date": "2018-05-06",
+    "highPrice": "0.017967",
+    "lowPrice": "0.017238",
+    "marketCap": "432673",
+    "openPrice": "0.017722",
+    "volume": "55"
+  },
+  {
+    "closePrice": "0.017710",
+    "date": "2018-05-05",
+    "highPrice": "0.018774",
+    "lowPrice": "0.016892",
+    "marketCap": "449944",
+    "openPrice": "0.018433",
+    "volume": "176"
+  },
+  {
+    "closePrice": "0.018442",
+    "date": "2018-05-04",
+    "highPrice": "0.020543",
+    "lowPrice": "0.018433",
+    "marketCap": "475747",
+    "openPrice": "0.019495",
+    "volume": "128"
+  },
+  {
+    "closePrice": "0.019502",
+    "date": "2018-05-03",
+    "highPrice": "0.019596",
+    "lowPrice": "0.018368",
+    "marketCap": "451811",
+    "openPrice": "0.018518",
+    "volume": "335"
+  },
+  {
+    "closePrice": "0.018517",
+    "date": "2018-05-02",
+    "highPrice": "0.019088",
+    "lowPrice": "0.018168",
+    "marketCap": "460008",
+    "openPrice": "0.018858",
+    "volume": "630"
+  },
+  {
+    "closePrice": "0.018887",
+    "date": "2018-05-01",
+    "highPrice": "0.018997",
+    "lowPrice": "0.017820",
+    "marketCap": "454573",
+    "openPrice": "0.018640",
+    "volume": "36"
+  },
+  {
+    "closePrice": "0.018623",
+    "date": "2018-04-30",
+    "highPrice": "0.019903",
+    "lowPrice": "0.018528",
+    "marketCap": "477494",
+    "openPrice": "0.019584",
+    "volume": "126"
+  },
+  {
+    "closePrice": "0.019591",
+    "date": "2018-04-29",
+    "highPrice": "0.020098",
+    "lowPrice": "0.018553",
+    "marketCap": "457896",
+    "openPrice": "0.018784",
+    "volume": "183"
+  },
+  {
+    "closePrice": "0.018792",
+    "date": "2018-04-28",
+    "highPrice": "0.018966",
+    "lowPrice": "0.018147",
+    "marketCap": "446948",
+    "openPrice": "0.018339",
+    "volume": "217"
+  },
+  {
+    "closePrice": "0.018403",
+    "date": "2018-04-27",
+    "highPrice": "0.019224",
+    "lowPrice": "0.017874",
+    "marketCap": "464311",
+    "openPrice": "0.019056",
+    "volume": "76"
+  },
+  {
+    "closePrice": "0.019030",
+    "date": "2018-04-26",
+    "highPrice": "0.019763",
+    "lowPrice": "0.018521",
+    "marketCap": "464292",
+    "openPrice": "0.019060",
+    "volume": "401"
+  },
+  {
+    "closePrice": "0.018903",
+    "date": "2018-04-25",
+    "highPrice": "0.021690",
+    "lowPrice": "0.018705",
+    "marketCap": "488692",
+    "openPrice": "0.020067",
+    "volume": "352"
+  },
+  {
+    "closePrice": "0.020204",
+    "date": "2018-04-24",
+    "highPrice": "0.022703",
+    "lowPrice": "0.018010",
+    "marketCap": "438685",
+    "openPrice": "0.018018",
+    "volume": "2795"
+  },
+  {
+    "closePrice": "0.018003",
+    "date": "2018-04-23",
+    "highPrice": "0.018082",
+    "lowPrice": "0.017528",
+    "marketCap": "427029",
+    "openPrice": "0.017543",
+    "volume": "26"
+  },
+  {
+    "closePrice": "0.017578",
+    "date": "2018-04-22",
+    "highPrice": "0.019218",
+    "lowPrice": "0.017488",
+    "marketCap": "438721",
+    "openPrice": "0.018027",
+    "volume": "162"
+  },
+  {
+    "closePrice": "0.018027",
+    "date": "2018-04-21",
+    "highPrice": "0.018261",
+    "lowPrice": "0.017508",
+    "marketCap": "441422",
+    "openPrice": "0.018142",
+    "volume": "121"
+  },
+  {
+    "closePrice": "0.018136",
+    "date": "2018-04-20",
+    "highPrice": "0.018918",
+    "lowPrice": "0.016590",
+    "marketCap": "406858",
+    "openPrice": "0.016739",
+    "volume": "116"
+  },
+  {
+    "closePrice": "0.016743",
+    "date": "2018-04-19",
+    "highPrice": "0.018517",
+    "lowPrice": "0.016695",
+    "marketCap": "407068",
+    "openPrice": "0.016751",
+    "volume": "541"
+  },
+  {
+    "closePrice": "0.016739",
+    "date": "2018-04-18",
+    "highPrice": "0.018410",
+    "lowPrice": "0.016140",
+    "marketCap": "392519",
+    "openPrice": "0.016156",
+    "volume": "592"
+  },
+  {
+    "closePrice": "0.016141",
+    "date": "2018-04-17",
+    "highPrice": "0.017298",
+    "lowPrice": "0.016080",
+    "marketCap": "400926",
+    "openPrice": "0.016506",
+    "volume": "120"
+  },
+  {
+    "closePrice": "0.016498",
+    "date": "2018-04-16",
+    "highPrice": "0.017505",
+    "lowPrice": "0.016236",
+    "marketCap": "417599",
+    "openPrice": "0.017196",
+    "volume": "164"
+  },
+  {
+    "closePrice": "0.017204",
+    "date": "2018-04-15",
+    "highPrice": "0.017304",
+    "lowPrice": "0.016653",
+    "marketCap": "404303",
+    "openPrice": "0.016653",
+    "volume": "88"
+  },
+  {
+    "closePrice": "0.016635",
+    "date": "2018-04-14",
+    "highPrice": "0.016841",
+    "lowPrice": "0.016150",
+    "marketCap": "393364",
+    "openPrice": "0.016206",
+    "volume": "43"
+  },
+  {
+    "closePrice": "0.016206",
+    "date": "2018-04-13",
+    "highPrice": "0.017896",
+    "lowPrice": "0.015793",
+    "marketCap": "390193",
+    "openPrice": "0.016079",
+    "volume": "631"
+  },
+  {
+    "closePrice": "0.016059",
+    "date": "2018-04-12",
+    "highPrice": "0.016699",
+    "lowPrice": "0.014211",
+    "marketCap": "357217",
+    "openPrice": "0.014723",
+    "volume": "225"
+  },
+  {
+    "closePrice": "0.014759",
+    "date": "2018-04-11",
+    "highPrice": "0.015511",
+    "lowPrice": "0.014224",
+    "marketCap": "345026",
+    "openPrice": "0.014224",
+    "volume": "159"
+  },
+  {
+    "closePrice": "0.014210",
+    "date": "2018-04-10",
+    "highPrice": "0.015828",
+    "lowPrice": "0.014134",
+    "marketCap": "346572",
+    "openPrice": "0.014291",
+    "volume": "206"
+  },
+  {
+    "closePrice": "0.014280",
+    "date": "2018-04-09",
+    "highPrice": "0.015478",
+    "lowPrice": "0.014169",
+    "marketCap": "366720",
+    "openPrice": "0.015125",
+    "volume": "355"
+  },
+  {
+    "closePrice": "0.015101",
+    "date": "2018-04-08",
+    "highPrice": "0.016373",
+    "lowPrice": "0.014849",
+    "marketCap": "369178",
+    "openPrice": "0.015230",
+    "volume": "641"
+  }
+]
