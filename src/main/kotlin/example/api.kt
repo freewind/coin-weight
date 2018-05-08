@@ -7,6 +7,7 @@ import com.beust.klaxon.Parser
 import org.apache.commons.io.IOUtils
 import org.jsoup.Jsoup
 import java.io.File
+import java.io.FileNotFoundException
 import java.io.StringReader
 import java.net.URI
 import java.net.URL
@@ -46,14 +47,20 @@ fun fetchAllData(dir: File) {
                 }
             }
         } else {
-            try {
-                fetchCoinHistoryData(coin).apply {
-                    val json = Klaxon().toJsonString(this)
-                    historyFile.writeText(json)
+            fun fetchUntilSuccessful() {
+                try {
+                    fetchCoinHistoryData(coin).apply {
+                        val json = Klaxon().toJsonString(this)
+                        historyFile.writeText(json)
+                    }
+                } catch (e: FileNotFoundException) {
+                    e.printStackTrace()
+                } catch (e: Exception) {
+                    e.printStackTrace()
+                    fetchUntilSuccessful()
                 }
-            } catch (e: Exception) {
-                e.printStackTrace()
             }
+            fetchUntilSuccessful()
         }
     }
 }
