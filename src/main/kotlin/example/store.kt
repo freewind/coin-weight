@@ -17,25 +17,36 @@ fun saveCoins(coins: List<Coin>) {
     DataFiles.coinsFile.writeText(json)
 }
 
-fun loadCoins(coinsFile: File): List<Coin> = (Parser().parse(coinsFile.absolutePath) as JsonArray<JsonObject>).let(::buildCoins)
+fun loadCoins(): List<Coin>? {
+    return if (DataFiles.coinsFile.exists()) {
+        (Parser().parse(DataFiles.coinsFile.absolutePath) as JsonArray<JsonObject>).let(::buildCoins)
+    } else {
+        null
+    }
+}
 
 fun saveHistoryData(coin: Coin, data: List<HistoryData>) {
     val json = Klaxon().toJsonString(data)
     DataFiles.historyDataFile(coin).writeText(json)
 }
 
-fun loadHistoryData(coin: Coin): List<HistoryData> {
-    val array = (Parser().parse(DataFiles.historyDataFile(coin).absolutePath) as JsonArray<JsonObject>)
-    return array.map {
-        HistoryData(
-                date = it.string("date")!!,
-                openPrice = it.string("openPrice")!!,
-                highPrice = it.string("highPrice")!!,
-                lowPrice = it.string("lowPrice")!!,
-                closePrice = it.string("closePrice")!!,
-                volume = it.string("volume")!!,
-                marketCap = it.string("marketCap")!!
-        )
+fun loadHistoryData(coin: Coin): List<HistoryData>? {
+    val file = DataFiles.historyDataFile(coin)
+    return if (file.exists()) {
+        val array = (Parser().parse(file.absolutePath) as JsonArray<JsonObject>)
+        return array.map {
+            HistoryData(
+                    date = it.string("date")!!,
+                    openPrice = it.string("openPrice")!!,
+                    highPrice = it.string("highPrice")!!,
+                    lowPrice = it.string("lowPrice")!!,
+                    closePrice = it.string("closePrice")!!,
+                    volume = it.string("volume")!!,
+                    marketCap = it.string("marketCap")!!
+            )
+        }
+    } else {
+        null
     }
 }
 

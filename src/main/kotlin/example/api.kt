@@ -77,20 +77,10 @@ private fun toDouble(str: String): String {
 }
 
 fun main(args: Array<String>) {
-    val coinsFile = DataFiles.coinsFile
-    val coins = if (coinsFile.exists()) {
-        loadCoins(coinsFile)
-    } else {
-        fetchAllCoins().apply(::saveCoins)
-    }
-
+    val coins = loadCoins() ?: fetchAllCoins().apply(::saveCoins)
     coins.forEach { coin ->
-        val historyFile = DataFiles.historyDataFile(coin)
-        if (!historyFile.exists()) {
-            val data = fetchHistoryDataUntilSuccessful(coin)
-            if (data != null) {
-                saveHistoryData(coin, data)
-            }
+        loadHistoryData(coin) ?: fetchHistoryDataUntilSuccessful(coin)?.run {
+            saveHistoryData(coin, this)
         }
     }
 }
